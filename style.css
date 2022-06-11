@@ -10,12 +10,6 @@ body {
   }
 
 header {
-  height: 200px;
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: auto;
 }
 
@@ -24,8 +18,18 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: auto;
 }
+
+.forrest-logo {
+  width: 11%;
+  margin: 40px;
+}
+
+.forrest-name {
+  width: 44%;
+  margin-bottom: 4px;
+}
+
 
 .personal-links {
   display: flex;
@@ -52,17 +56,10 @@ main {
 }
 
 #profile-pic {
-  margin-top: 20px;
+  margin: 40px;
   width: 280px;
   height: 280px;
   border-radius: 50%;
-  margin-left: 5px;
-}
-
-.forrest-logo {
-  width: 40%;
-  height: 40%;
-  margin-left: 30px;
 }
 
 .header-text {
@@ -82,24 +79,6 @@ h1 {
 h4 {
   letter-spacing: 2px;
   font-size: 13px;
-}
-
-.portfolio-button {
-  margin: 3% auto;
-  width: 240px;
-  height: 60px;
-  font-size: 30px;
-  font-family: "Nunito", sans-serif;
-  border-radius: 5px;
-  border-color: white;
-  background-color: white;
-  border-style: solid;
-  padding: 5px;
-  text-align: center;
-  color: rgb(17, 159, 5);
-  letter-spacing: 4px;
-  font-style: normal;
-  outline: none;
 }
 
 footer {
@@ -164,4 +143,5 @@ a:active {
   header {
     max-width: 600px;
   }
+  
 }
