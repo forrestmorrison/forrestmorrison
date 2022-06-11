@@ -34,10 +34,9 @@ header {
 .personal-links {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
   margin: 10px;
-  padding-left: 10px;
-  max-width: 1200px;
   font-size: 14pt;
 }
 
