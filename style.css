@@ -142,5 +142,12 @@ a:active {
   header {
     max-width: 600px;
   }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
 }
