@@ -57,30 +57,21 @@ main {
   align-items: center;
 }
 
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 #profile-pic {
-  margin: 40px;
-  width: 280px;
-  height: 280px;
+  margin: 20px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 
-.header-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 30px;
-}
-
-h1 {
-  color:rgb(17, 159, 5);
-  letter-spacing: 2px;
-  font-size: 24px;
-}
-
-h4 {
-  letter-spacing: 2px;
-  font-size: 13px;
+.about-me {
+  margin: 20px;
 }
 
 footer {
@@ -139,8 +130,8 @@ a:active {
 
 @media only screen and (max-width: 600px){
 
-  header {
-    max-width: 600px;
+  .forrest-name {
+    margin-left: 0px;
   }
 
   .banner {
@@ -158,6 +149,12 @@ a:active {
   .forrest-name {
     width: 50%;
     margin-bottom: 20px;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
 }
