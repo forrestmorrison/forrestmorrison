@@ -14,6 +14,7 @@ header {
 }
 
 .banner {
+  margin: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -39,7 +40,7 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin: 15px;
+  margin: 20px;
   font-size: 14pt;
 }
 
@@ -73,10 +74,10 @@ main {
 .about-me {
   margin: 20px;
   font-size: 13pt;
+  max-width: 470px;
 }
 
 footer {
-  height: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,7 +91,7 @@ footer {
 }
 
 .business {
-  margin: 10px;
+  margin: 12px;
 }
 
 #link-img {
@@ -99,6 +100,7 @@ footer {
 }
 
 .small-text {
+  margin: 20px;
   color: rgb(17, 159, 5);
   font-size: 10px;
   text-align: center;
@@ -138,40 +140,28 @@ a:active {
   .banner {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
   }
   
   .forrest-logo {
-    height: 25px;
+    height: 22px;
     width: auto;
     margin: 10px;
   }
   
   .forrest-name {
-    height: 25px;
+    height: 22px;
     width: auto;
     margin: 10px;
     margin-bottom: 13px;
   }
 
   .personal-links {
-    font-size: 12pt;
+    font-size: 11pt;
   }
 
   .personal {
     margin-left: 5px;
     margin-right: 5px;
-  }
-
-  .profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about-me {
-    text-align: center;
   }
   
 }
