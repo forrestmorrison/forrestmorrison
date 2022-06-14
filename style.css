@@ -184,5 +184,13 @@ a:active {
     text-align: center;
     max-width: 330px;
   }
+
+  .business-links {
+    margin-top: 30px;
+  }
+
+  .footer-links {
+    flex-direction: column;  
+  }
   
 }

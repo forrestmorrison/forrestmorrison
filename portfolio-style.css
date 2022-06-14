@@ -175,5 +175,13 @@ a:active {
     margin-left: 5px;
     margin-right: 5px;
   }
+
+  .business-links {
+    margin-top: 30px;
+  }
+
+  .footer-links {
+    flex-direction: column;  
+  }
   
 }

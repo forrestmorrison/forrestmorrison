@@ -179,13 +179,12 @@ a:active {
     margin-right: 5px;
   }
 
-  .profile {
-    flex-direction: column;
+  .business-links {
+    margin-top: 30px;
   }
 
-  .about-me {
-    text-align: center;
-    max-width: 330px;
+  .footer-links {
+    flex-direction: column;  
   }
   
 }
