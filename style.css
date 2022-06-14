@@ -98,6 +98,7 @@ footer {
 
 .contact-button {
   margin: 20px;
+  margin-bottom: 30px;
   font-size: 32px;
 }
 
@@ -106,7 +107,7 @@ footer {
 }
 
 #link-img {
-   width: 33px;
+   width: 25px;
    height: auto;
 }
 
