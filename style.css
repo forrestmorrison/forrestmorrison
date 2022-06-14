@@ -80,14 +80,25 @@ main {
 footer {
   display: flex;
   flex-direction: column;
+}
+
+.footer-links {
+  width: 740px;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .business-links {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.contact-button {
+  margin: 20px;
+  font-size: 32px;
 }
 
 .business {
