@@ -83,8 +83,14 @@ body {
   footer {
     display: flex;
     flex-direction: column;
+  }
+  
+  .footer-links {
+    width: 740px;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
   
   .business-links {
@@ -93,12 +99,18 @@ body {
     align-items: center;
   }
   
+  .contact-button {
+    margin: 20px;
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  
   .business {
     margin: 12px;
   }
   
   #link-img {
-     width: 33px;
+     width: 25px;
      height: auto;
   }
   
