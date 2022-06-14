@@ -184,6 +184,7 @@ a:active {
   }
 
   .footer-links {
+    width: 360px;
     flex-direction: column;  
   }
   
