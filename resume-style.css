@@ -149,3 +149,27 @@ a:active {
   font: Nunito;
   text-decoration: none;
 }
+
+
+
+@media all and (max-width: 600px){
+
+  .forrest-logo {
+    width: 15%;
+  }
+
+  .forrest-name {
+    width: 60%;
+    margin-bottom: 2px;
+  }
+
+  .personal-links {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .skill-box {
+    flex-direction: column;
+  }
+
+}

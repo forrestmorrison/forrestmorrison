@@ -139,3 +139,34 @@ a:active {
   font: Nunito;
   text-decoration: none;
 }
+
+
+
+@media all and (max-width: 600px){
+
+  .forrest-logo {
+    width: 15%;
+  }
+
+  .forrest-name {
+    width: 60%;
+    margin-bottom: 2px;
+  }
+
+  .personal-links {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  #profile-pic {
+    margin-bottom: 50px;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+  }
+
+}
