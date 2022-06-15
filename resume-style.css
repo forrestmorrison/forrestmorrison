@@ -6,15 +6,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  }
+}
 
 header {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  padding: 25px;
 }
 
 .banner {
-  width: 720px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -22,25 +23,22 @@ header {
 }
 
 .forrest-logo {
-  width: 11%;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  width: 10%;
 }
 
 .forrest-name {
-  width: 44%;
-  margin-bottom: 4px;
+  width: 40%;
+  margin-bottom: 2px;
 }
 
 
 .personal-links {
-  width: 720px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
-  font-size: 14pt;
+  font-size: 16pt;
+  margin-top: 50px;
 }
 
 .personal {
@@ -48,16 +46,14 @@ header {
 }
 
 main {
-  height: auto;
-  margin-top: 20px;
-  width: 820px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: space-between;
+  padding: 25px;
 }
 
 .resume {
-  margin: 20px;
+  margin: 0px;
 }
 
 .line {
@@ -78,13 +74,25 @@ p {
   margin: 10px;
 }
 
+.skill-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.skill-block {
+  margin-right: 40px;
+}
+
 footer {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 25px;
 }
 
 .footer-links {
-  width: 740px;
+  width: 80%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -99,7 +107,7 @@ footer {
 
 .contact-button {
   margin: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 27px;
   font-size: 24px;
 }
 
@@ -108,14 +116,14 @@ footer {
 }
 
 #link-img {
-  width: 25px;
-  height: auto;
+   width: 20px;
+   height: auto;
 }
 
 .small-text {
   margin: 20px;
   color: rgb(17, 159, 5);
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -126,7 +134,7 @@ a:link {
 }
 
 a:visited {
-  color: rgb(17, 159, 5);
+  color: #119f05;
   font: Nunito;
   text-decoration: none;
 }
@@ -140,50 +148,4 @@ a:active {
   color: rgb(93, 187, 16);
   font: Nunito;
   text-decoration: none;
-}
-
-
-
-@media only screen and (max-width: 600px){
-
-  .forrest-name {
-    margin-left: 0px;
-  }
-
-  .banner {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .forrest-logo {
-    height: 22px;
-    width: auto;
-    margin: 10px;
-  }
-  
-  .forrest-name {
-    height: 22px;
-    width: auto;
-    margin: 10px;
-    margin-bottom: 13px;
-  }
-
-  .personal-links {
-    font-size: 11pt;
-  }
-
-  .personal {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-
-  .business-links {
-    margin-top: 30px;
-  }
-
-  .footer-links {
-    width: 360px;
-    flex-direction: column;  
-  }
-  
 }
