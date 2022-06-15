@@ -158,4 +158,8 @@ a:active {
     margin-bottom: 0px;
   }
 
+  .footer-links {
+    flex-direction: column;
+  }
+
 }

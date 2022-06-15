@@ -172,4 +172,8 @@ a:active {
     flex-direction: column;
   }
 
+  .footer-links {
+    flex-direction: column;
+  }
+
 }

@@ -169,4 +169,8 @@ a:active {
     border-radius: 50%;
   }
 
+  .footer-links {
+    flex-direction: column;
+  }
+
 }
