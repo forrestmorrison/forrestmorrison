@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./contact-me-style.css">
+    <script src="scripts.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
@@ -25,7 +26,7 @@
     </header>
     <main>
       <section class="contact-me">
-        <form>
+        <form onsubmit="sendEmail(); reset(); return false">
           <h3>Contact Me</h3>
           <input type="text" class="form-input" id="name" placeholder="name" required>
           <input type="text" class="form-input" id="email" placeholder="email" required>
@@ -34,6 +35,7 @@
           <button type="submit" class="form-button">send</button>
         </form>
       </section>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
     </main>
     <footer>
       <section class="footer-links">
