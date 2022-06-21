@@ -56,10 +56,28 @@ main {
   margin: 0px;
 }
 
+.exp-box {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.exp-line {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .line {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.description {
+  max-width: 280px;
 }
 
 h3 {
@@ -67,11 +85,11 @@ h3 {
 }
 
 h4 {
-  margin: 10px;
+  margin: 2px;
 }
 
 p {
-  margin: 10px;
+  margin: 2px;
 }
 
 .skill-box {
@@ -170,6 +188,10 @@ a:active {
 
   .line {
     flex-direction: row;
+  }
+
+  h3 {
+    font-size: 12px;
   }
 
   h4 {
