@@ -86,7 +86,7 @@ footer {
 }
 
 .footer-links {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -94,6 +94,7 @@ footer {
 }
 
 .business-links {
+  margin: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
