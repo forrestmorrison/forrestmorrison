@@ -186,6 +186,10 @@ a:active {
     margin-bottom: 0px;
   }
 
+  .exp-box {
+    flex-direction: column;
+  }
+
   .line {
     flex-direction: row;
   }
@@ -201,6 +205,7 @@ a:active {
   p {
     font-size: 12px;
   }
+
 
   .skill-box {
     flex-direction: column;
