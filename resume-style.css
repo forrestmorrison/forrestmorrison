@@ -168,6 +168,18 @@ a:active {
     margin-bottom: 0px;
   }
 
+  .line {
+    flex-direction: row;
+  }
+
+  h4 {
+    font-size: 12px;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+
   .skill-box {
     flex-direction: column;
   }
