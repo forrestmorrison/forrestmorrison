@@ -90,12 +90,6 @@ main {
   align-items: flex-end;
 }
 
-.line {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 .description {
   max-width: 280px;
 }
@@ -110,6 +104,11 @@ h4 {
 
 p {
   margin: 2px;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
 }
 
 .skill-box {
@@ -207,13 +206,25 @@ a:active {
     margin-bottom: 0px;
   }
 
-  .exp-box {
+  .exp-line {
+    align-items: center;
+  }
+
+  .exp-box-1 {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .exp-box-2 {
     flex-direction: column;
   }
 
-  .line {
-    flex-direction: row;
+  .exp-box-3 {
+    flex-direction: column;
+    margin-left: 0px;
   }
+
+
 
   h3 {
     font-size: 12px;
@@ -224,7 +235,10 @@ a:active {
   }
   
   p {
+    margin-left: 5px;
+    margin-right: 5px;
     font-size: 12px;
+    text-align: center;
   }
 
 
