@@ -53,24 +53,20 @@ main {
   padding: 25px;
 }
 
-.profile {
+.bmxbox {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
 }
 
-#profile-pic {
-  margin-right: 15px;
-  width: 25%;
-  height: 25%;
-  border-radius: 50%;
+#bmxpic {
+  width: 70%;
+  border: #000000 solid 1px;
 }
 
-.about-me {
-  margin-left: 15px;
-  max-width: 480px;
-  font-size: 12pt;
+.bmxparks {
+  margin: 20px;
+  font-size: 24px;
 }
 
 footer {
