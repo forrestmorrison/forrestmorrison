@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact-me-style.css">
     <title>Contact Form</title>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
             // https://dashboard.emailjs.com/admin/account
-            emailjs.init('YOUR_PUBLIC_KEY');
+            emailjs.init('80V36n03YZ0T2wyCc');
         })();
     </script>
     <script type="text/javascript">
@@ -19,7 +20,7 @@
                 // generate a five digit number for the contact_number variable
                 this.contact_number.value = Math.random() * 100000 | 0;
                 // these IDs from the previous steps
-                emailjs.sendForm('contact_service', 'contact_form', this)
+                emailjs.sendForm('gmail', 'template_3awxwzc', this)
                     .then(function() {
                         console.log('SUCCESS!');
                     }, function(error) {
@@ -33,12 +34,14 @@
     <form id="contact-form">
         <input type="hidden" name="contact_number">
         <label>Name</label>
-        <input type="text" name="user_name">
+        <input type="text" name="name" class="form-input">
         <label>Email</label>
-        <input type="email" name="user_email">
+        <input type="email" name="email" class="form-input">
+        <label>Subject</label>
+        <input type="text" name="subject" class="form-input"></input>
         <label>Message</label>
-        <textarea name="message"></textarea>
-        <input type="submit" value="Send">
+        <textarea name="message" class="form-input"></textarea>
+        <input type="submit" class="form-button" value="Send">
     </form>
 </body>
 </html>
