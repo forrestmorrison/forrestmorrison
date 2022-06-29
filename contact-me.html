@@ -28,6 +28,7 @@
                 emailjs.sendForm('gmail', 'template_3awxwzc', this)
                     .then(function() {
                         console.log('SUCCESS!');
+                        window.location.replace("contact-thanks.html")
                     }, function(error) {
                         console.log('FAILED...', error);
                     });
@@ -59,12 +60,7 @@
         <input type="text" name="subject" class="form-input"></input>
         <label>Message</label>
         <textarea name="message" class="message-input"></textarea>
-        <input type="submit" class="form-button" onclick="redirect()" value="Send">
-        <script>
-          function redirect() {
-            window.location.href="contact-thanks.html";  
-          }
-        </script>
+        <input type="submit" class="form-button" value="Send">
       </form>
     </main>
     <footer>
