@@ -44,7 +44,6 @@ header {
 
 .personal {
   text-align: center;
-  font-weight: bold;
 }
 
 main {
@@ -98,7 +97,6 @@ footer {
   margin: 20px;
   margin-bottom: 27px;
   font-size: 24px;
-  font-weight: bold;
 }
 
 .business {
