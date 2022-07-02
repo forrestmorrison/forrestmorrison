@@ -102,12 +102,17 @@ main {
   align-items: flex-end;
 }
 
+.res-link {
+  font-weight: bold;
+}
+
 .description {
   max-width: 280px;
 }
 
 h3 {
-  color: #119f05;
+  color: #000000;
+  text-decoration: underline;
 }
 
 h4 {
