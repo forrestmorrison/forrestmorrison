@@ -115,6 +115,7 @@ main {
 }
 
 .description {
+  margin-bottom: 20px;
   max-width: 310px;
 }
 
@@ -247,6 +248,12 @@ a:active {
     margin-bottom: 20px;
   }
 
+  .exp-line-3 {
+    margin: 20px;
+    margin-bottom: 16px;
+    align-items: center;
+  }
+
   .exp-box-1 {
     flex-direction: column;
     margin-left: 0px;
@@ -281,6 +288,11 @@ a:active {
   .skill-box {
     flex-direction: column;
   }
+  
+  .skill-block {
+    margin: 0px;
+  }
+  
 
   .footer-links {
     flex-direction: column;
