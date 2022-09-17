@@ -94,9 +94,17 @@ main {
   align-items: flex-end;
 }
 
+.exp-line-1 {
+  margin: 20px;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .exp-line-2 {
   margin: 20px;
-  margin-bottom: 272px;
+  margin-bottom: 290px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -104,7 +112,7 @@ main {
 
 .exp-line-3 {
   margin: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 35px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
