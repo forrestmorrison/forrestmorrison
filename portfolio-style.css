@@ -53,6 +53,11 @@ main {
   padding: 25px;
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: row;
+}
+
 .bmxbox {
   display: flex;
   flex-direction: column;
