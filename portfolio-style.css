@@ -162,6 +162,10 @@ a:active {
     margin-bottom: 0px;
   }
 
+  .portfolio {
+    flex-direction: column;
+  }
+
   .bmxparks {
     font-size: 16px;
   }
