@@ -21,17 +21,20 @@ body {
     max-width: 960px;
     width: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: space-between;
-    padding: 25px;
 }
 
 .banner {
     margin: 10px;
+    margin-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -46,4 +49,93 @@ header {
 .forrest-name {
     max-height: 40px;
     height: 100%;
+}
+
+.header-nav {
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16pt;
+}
+
+a:link {
+    color: rgb(17, 159, 5);
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #119f05;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(93, 187, 16);
+    text-decoration: none;
+}
+  
+a:active {
+    color: rgb(93, 187, 16);
+    text-decoration: none;
+}
+
+main {
+    margin: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+#profile-pic {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+}
+  
+.about-me {
+    margin-left: 20px;
+    font-size: 12pt;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer section {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.contact-button {
+    margin: 10px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.business {
+margin: 10px;
+}
+
+#link-img {
+    width: 20px;
+    height: auto;
 }
