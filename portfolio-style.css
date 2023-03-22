@@ -1,29 +1,29 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    /* font: inherit; */
+  margin: 0;
+  padding: 0;
+  /* font: inherit; */
 }
 
 html:focus-within {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Nunito", sans-serif;
-    background: white;
-    color: black;
-    max-width: 960px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  font-family: "Nunito", sans-serif;
+  background: white;
+  color: black;
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 header {
@@ -33,62 +33,62 @@ header {
 }
 
 .banner {
-    margin: 10px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-  }
+  margin: 10px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
   
 .forrest-logo {
-    max-height: 40px;
-    height: 100%;
+  max-height: 40px;
+  height: 100%;
 }
 
 .forrest-name {
-    max-height: 40px;
-    height: 100%;
+  max-height: 40px;
+  height: 100%;
 }
 
 .header-nav {
-    margin: 10px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 16pt;
+  margin: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16pt;
 }
 
 a:link {
-    color: rgb(17, 159, 5);
-    font-weight: bold;
-    text-decoration: none;
+  color: rgb(17, 159, 5);
+  font-weight: bold;
+  text-decoration: none;
 }
   
 a:visited {
-    color: #119f05;
-    text-decoration: none;
+  color: #119f05;
+  text-decoration: none;
 }
   
 a:hover {
-    color: rgb(93, 187, 16);
-    text-decoration: none;
+  color: rgb(93, 187, 16);
+  text-decoration: none;
 }
   
 a:active {
-    color: rgb(93, 187, 16);
-    text-decoration: none;
+  color: rgb(93, 187, 16);
+  text-decoration: none;
 }
 
 main {
-    margin: 10px;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  margin: 10px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
   
 .portfolio-item {
@@ -100,23 +100,24 @@ main {
 }
 
 .portfolio-pic {
-    width: 250px;
+  margin: 10px;
+  height: 100px;
 }
 
 .portfolio-info {
-    margin-left: 20px;
-    height: 250px;
+  margin-left: 20px;
+  height: 250px;
 }
 
 .portfolio-line {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .portfolio-icon {
-    margin: 5px;
-    height: 15px;
+  margin: 5px;
+  height: 15px;
 }
 
 .portfolio-links {
@@ -137,40 +138,40 @@ main {
 }
 
 footer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer section {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .footer-link {
-    margin: 10px;
+  margin: 10px;
 }
 
 #link-img {
-    width: 20px;
-    height: auto;
+  width: 20px;
+  height: auto;
 }
 
 .contact-button {
-    margin: 10px;
-    margin-bottom: 15px;
-    font-size: 24px;
+  margin: 10px;
+  margin-bottom: 15px;
+  font-size: 24px;
 }
 
 

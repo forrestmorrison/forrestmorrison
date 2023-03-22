@@ -96,23 +96,11 @@ main {
   height: 25%;
   border-radius: 50%;
 }
-
-.home-info {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-.home-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
   
-.home-icon {
-  height: 30px;
-  margin: 15px;
+.about-me {
+  margin-left: 20px;
+  font-size: 12pt;
+  text-align: center;
 }
 
 footer {
@@ -180,8 +168,9 @@ footer section {
     border-radius: 50%;
   }
 
-  .home-item {
-    margin-bottom: 20px;
+  .about-me {
+    margin-left: 0px;
+    text-align: center;
   }
 
   .footer section {
