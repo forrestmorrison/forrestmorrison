@@ -178,9 +178,17 @@ footer section {
     flex-direction: column;
   }
 
-  .bmxparks {
-    font-size: 16px;
+  .portfolio-pic {
+    height: 150px;
   }
+
+  .portfolio-item {
+    flex-direction: column;
+  }
+
+  .portfolio-info {
+    margin-left: 0px;
+}
 
   .footer-links {
     flex-direction: column;
