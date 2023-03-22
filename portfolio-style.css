@@ -179,12 +179,11 @@ footer section {
 @media all and (max-width: 768px){
 
   .forrest-logo {
-    width: 15%;
+    max-height: 20px;
   }
 
   .forrest-name {
-    width: 60%;
-    margin-bottom: 2px;
+    max-height: 20px;
   }
 
   .header-nav {
@@ -196,19 +195,21 @@ footer section {
     flex-direction: column;
   }
 
-  .portfolio-pic {
-    height: 150px;
-  }
-
   .portfolio-item {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  .portfolio-info {
-    margin-left: 0px;
-}
+  .portfolio-links {
+    margin-bottom: 20px;
+  }
 
-  .footer-links {
+  .portfolio-pic {
+    height: 60px;
+  }
+
+  .footer section {
     flex-direction: column;
   }
 

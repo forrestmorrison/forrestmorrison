@@ -38,7 +38,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
   
 .forrest-logo {
@@ -182,6 +182,14 @@ footer section {
 
   .home-item {
     margin-bottom: 20px;
+  }
+
+  .home-icon {
+    height: 20px;
+  }
+
+  h1 {
+    font-size: 20px;
   }
 
   .footer section {
