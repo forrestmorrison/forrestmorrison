@@ -1,63 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./portfolio-style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="images/4rest-favicon.png"/>
-    <title>Forrest Morrison</title>
-</head>
-<body>
-    <header>
-      <div class="banner">
-        <img src="images/4rest-logo.jpg" class="forrest-logo">
-        <img src="images/forrest-name.jpg" class="forrest-name">
-      </div>
-      <nav class= "personal-links">
-        <a class="personal" href= "index.html">about me</a>
-        <a class="personal" href= "portfolio.html">portfolio</a>
-        <a class="personal" href= "resume.html">resume</a>
-        <a class="personal" href= "https://forrestmorrison.blogspot.com">my blog</a>
-      </nav> 
-    </header>
-    <main>
-      <section class="portfolio">
-        <div class="bmxbox">
-          <img src="images/bmxparks.jpg" id="bmxpic">
-        <a class="bmxparks" href= "https://www.bmxparks.org">BMX Parks</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./portfolio-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="images/4rest-favicon.png"/>
+        <title>Forrest Morrison</title>
+    </head>
+    <body>
+        <div class="banner">
+            <img src="images/4rest-logo.jpg" class="forrest-logo">
+            <img src="images/forrest-name.jpg" class="forrest-name">
         </div>
-        <div class="bmxbox">
-          <img src="images/posts.jpg" id="bmxpic">
-        <a class="bmxparks" href= "https://www.postshtx.com">POSTS</a>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <section class="footer-links">
-        <nav class="business-links">
-          <a class="business" href="https://www.github.com/forrestmorrison">
-              <img id="link-img" src="images/github-logo.png"/>
-            </a>
-            <a class="business" href="https://www.linkedin.com/in/forrestmorrison">
-              <img id="link-img" src="images/linkedin-logo.png"/>
-            </a>
-            <a class="business" href="https://www.instagram.com/4restmorrison">
-              <img id="link-img" src="images/instagram-logo.png">
-            </a>
-            <a class="business" href="https://www.twitter.com/4restmorrison">
-              <img id="link-img" src="images/twitter-logo.png">
-            </a>
-            <a class="business" href="https://www.youtube.com/channel/UCRjeYAh2Fc9r9TlHQu4uGFw">
-              <img id="link-img" src="images/youtube-logo.png">
-            </a>
-          </nav>
-          <a class="contact-button" href= "contact-me.html">contact me</a>
-      </section>
-      <p class="small-text">©️ Forrest Morrison 2023</p>
-    </footer>
-</body>
+        <nav class="header-nav">
+            <a class="nav-link" href="index.html">about me</a>
+            <a class="nav-link" href="portfolio.html">portfolio</a>
+            <a class="nav-link" href="resume.html">resume</a>
+            <a class="nav-link" href="https://forrestmorrison.blogspot.com">blog</a>
+        </nav>
+        <main>
+            <section class="portfolio-item">
+                <a href= "https://www.bmxparks.org"><img class="portfolio-pic" src="images/bmxparks.jpg" id="bmxpic"></a>
+                <div class="portfolio-info">
+                    <a href= "https://www.bmxparks.org"><h2>BMX Parks</h2></a>
+                    <div class="portfolio-line">
+                        <img class="portfolio-icon" src="images/js-logo.png" id="js-logo">
+                        <h5>Javascript</h5>
+                    </div>
+                    <div class="portfolio-line">
+                        <img class="portfolio-icon" src="images/react-logo.png" id="react-logo">
+                        <h5>React</h5>
+                    </div>
+                    <div class="portfolio-line">
+                        <img class="portfolio-icon" src="images/mui-logo.png" id="mui-logo">
+                        <h5>Material UI</h5>
+                    </div>
+                    <div class="portfolio-line">
+                        <img class="portfolio-icon" src="images/node-js-logo.png" id="node-js-logo">
+                        <h5>Node JS</h5>
+                    </div>
+                    <div class="portfolio-line">
+                        <img class="portfolio-icon" src="images/express-js-logo.png" id="express-js-logo">
+                        <h5>Express JS</h5>
+                    </div>
+                    <div class="portfolio-line">
+                        <img class="portfolio-icon" src="images/google-cloud-logo.png" id="google-cloud-logo">
+                        <h5>Google Cloud</h5>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio-item">
+              <a href= "https://www.bmxparks.org"><img class="portfolio-pic" src="images/posts.jpg" id="bmxpic"></a>
+              <div class="portfolio-info">
+                  <a href= "https://www.postshtx.com"><h2>Posts</h2></a>
+                  <div class="portfolio-line">
+                      <img class="portfolio-icon" src="images/js-logo.png" id="js-logo">
+                      <h5>Javascript</h5>
+                  </div>
+                  <div class="portfolio-line">
+                      <img class="portfolio-icon" src="images/react-logo.png" id="react-logo">
+                      <h5>React</h5>
+                  </div>
+                  <div class="portfolio-line">
+                      <img class="portfolio-icon" src="images/mui-logo.png" id="mui-logo">
+                      <h5>Material UI</h5>
+                  </div>
+                  <div class="portfolio-line">
+                      <img class="portfolio-icon" src="images/node-js-logo.png" id="node-js-logo">
+                      <h5>Node JS</h5>
+                  </div>
+                  <div class="portfolio-line">
+                      <img class="portfolio-icon" src="images/express-js-logo.png" id="express-js-logo">
+                      <h5>Express JS</h5>
+                  </div>
+                  <div class="portfolio-line">
+                      <img class="portfolio-icon" src="images/aws-logo.png" id="google-cloud-logo">
+                      <h5>AWS</h5>
+                  </div>
+              </div>
+          </section>
+        </main>
+        <footer>
+            <section>
+                <nav class="footer-nav">
+                    <a class="footer-link" href="https://www.github.com/forrestmorrison">
+                        <img id="link-img" src="images/github-logo.png"/>
+                    </a>
+                    <a class="footer-link" href="https://www.linkedin.com/in/forrestmorrison">
+                        <img id="link-img" src="images/linkedin-logo.png"/>
+                    </a>
+                    <a class="footer-link" href="https://www.instagram.com/4restmorrison">
+                        <img id="link-img" src="images/instagram-logo.png">
+                    </a>
+                    <a class="footer-link" href="https://www.twitter.com/4restmorrison">
+                        <img id="link-img" src="images/twitter-logo.png">
+                    </a>
+                    <a class="footer-link" href="https://www.youtube.com/channel/UCRjeYAh2Fc9r9TlHQu4uGFw">
+                        <img id="link-img" src="images/youtube-logo.png">
+                    </a>
+                </nav>
+                <a class="contact-button" href= "contact-me.html">contact me</a>
+            </section>
+            <p class="small-text">©️ Forrest Morrison 2023</p>
+        </footer>
+    </body>
 </html>

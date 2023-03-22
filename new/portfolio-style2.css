@@ -87,12 +87,11 @@ main {
     margin-top: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
   
 .portfolio-item {
-    margin: 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -154,36 +153,4 @@ footer section {
     margin: 10px;
     margin-bottom: 15px;
     font-size: 24px;
-}
-
-
-
-@media all and (max-width: 768px){
-
-  .forrest-logo {
-    width: 15%;
-  }
-
-  .forrest-name {
-    width: 60%;
-    margin-bottom: 2px;
-  }
-
-  .header-nav {
-    font-size: 16px;
-    margin-bottom: 0px;
-  }
-
-  main {
-    flex-direction: column;
-  }
-
-  .bmxparks {
-    font-size: 16px;
-  }
-
-  .footer-links {
-    flex-direction: column;
-  }
-
 }
