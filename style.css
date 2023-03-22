@@ -125,14 +125,14 @@ footer section {
   align-items: center;
 }
 
+.footer-link {
+  margin: 10px;
+}
+
 .contact-button {
   margin: 10px;
   margin-bottom: 15px;
   font-size: 24px;
-}
-
-.business {
-  margin: 10px;
 }
 
 #link-img {
@@ -169,6 +169,7 @@ footer section {
   }
 
   .about-me {
+    margin-left: 0px;
     text-align: center;
   }
 
