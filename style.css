@@ -192,6 +192,10 @@ footer section {
     font-size: 20px;
   }
 
+  .thank-you {
+    text-align: center;
+  }
+
   .footer section {
     flex-direction: column;
   }
