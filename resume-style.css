@@ -111,6 +111,52 @@ main {
   height: 20px;
 }
 
+.edu {
+  margin-top: 40px;
+}
+
+.edu-section {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.edu-block {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.edu-description {
+  margin: 10px;
+  max-width: 298px;
+}
+
+.work-block-1 {
+  margin: 10px;
+  margin-left: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.work-block-2 {
+  margin: 10px;
+  margin-left: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.work-block-3 {
+  margin: 10px;
+  margin-left: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 footer {
   width: 100%;
   display: flex;
