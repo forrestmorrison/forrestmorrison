@@ -1,167 +1,114 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font: inherit; */
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
 body {
-  font-family: "Nunito", sans-serif;
-  max-width: 960px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    font-family: "Nunito", sans-serif;
+    background: white;
+    color: black;
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header {
-  display: flex;
-  flex-direction: column;
-  align-items: space-between;
-  padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
 }
 
 .banner {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+    margin: 10px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
 }
-
+  
 .forrest-logo {
-  width: 10%;
+    max-height: 40px;
+    height: 100%;
 }
 
 .forrest-name {
-  width: 40%;
-  margin-bottom: 2px;
+    max-height: 40px;
+    height: 100%;
 }
 
-
-.personal-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 16pt;
-  margin-top: 50px;
+.header-nav {
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16pt;
 }
 
-.personal {
-  text-align: center;
+a:link {
+    color: rgb(17, 159, 5);
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #119f05;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(93, 187, 16);
+    text-decoration: none;
+}
+  
+a:active {
+  color: rgb(93, 187, 16);
+  text-decoration: none;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 25px;
-}
-
-.resume {
-  margin: 0px;
+  margin: 10px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.exp-box-1 {
-  margin: 20px;
-  margin-left: 65px;
+.skills {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+}
+
+.skill-section {
+  margin: 20px;
+}
+  
+.skill-line {
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
-.exp-box-2 {
-  margin: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.exp-box-3 {
-  margin: 20px;
-  margin-left: 90px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.exp-line {
-  margin: 20px;
-  margin-top: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.exp-line-1 {
-  margin: 20px;
-  margin-top: 7px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.exp-line-2 {
-  margin: 20px;
-  margin-bottom: 290px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.exp-line-3 {
-  margin: 20px;
-  margin-bottom: 35px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.exp-line-4 {
-  margin: 20px;
-  margin-bottom: 35px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.res-link {
-  font-weight: bold;
-}
-
-.description {
-  margin-bottom: 20px;
-  max-width: 310px;
-}
-
-h3 {
-  color: #000000;
-  text-decoration: underline;
-}
-
-h4 {
-  margin: 2px;
-}
-
-p {
-  margin: 2px;
-}
-
-.line {
-  display: flex;
-  flex-direction: row;
-}
-
-.skill-box {
-  margin: 20px;
-  margin-bottom: 25px;
-  display: flex;
-  flex-direction: row;
-}
-
-.skill-block {
-  margin: 60px;
+.skill-icon {
+  margin: 10px;
+  height: 20px;
 }
 
 footer {
@@ -169,67 +116,36 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px;
 }
 
-.footer-links {
-  width: 100%;
+footer section {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
 }
 
-.business-links {
-  margin: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.footer-link {
+  margin: 10px;
 }
 
 .contact-button {
-  margin: 20px;
-  margin-bottom: 27px;
+  margin: 10px;
+  margin-bottom: 15px;
   font-size: 24px;
 }
 
-.business {
-  margin: 12px;
-}
-
 #link-img {
-   width: 20px;
-   height: auto;
-}
-
-.small-text {
-  margin: 20px;
-  color: rgb(17, 159, 5);
-  font-size: 12px;
-  text-align: center;
-}
-
-a:link {
-  color: rgb(17, 159, 5);
-  font: Nunito;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #119f05;
-  font: Nunito;
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgb(93, 187, 16);
-  text-decoration: none;
-}
-
-a:active {
-  color: rgb(93, 187, 16);
-  font: Nunito;
-  text-decoration: none;
+  width: 20px;
+  height: auto;
 }
 
 
@@ -237,84 +153,35 @@ a:active {
 @media all and (max-width: 768px){
 
   .forrest-logo {
-    width: 15%;
+    max-height: 20px;
   }
 
   .forrest-name {
-    width: 60%;
-    margin-bottom: 2px;
+    max-height: 20px;
   }
 
-  .personal-links {
+  .header-nav {
     font-size: 16px;
     margin-bottom: 0px;
   }
 
-  .res-link {
-    font-size: 12px;
-  }
-
-  .exp-line {
-    align-items: center;
-    margin-top: 0px;
-  }
-
-  .exp-line-2 {
-    align-items: center;
-    margin-bottom: 20px;
-  }
-
-  .exp-line-3 {
-    margin: 20px;
-    margin-bottom: 16px;
-    align-items: center;
-  }
-
-  .exp-line-4 {
-    align-items: center;
-  }
-
-  .exp-box-1 {
-    flex-direction: column;
-    margin-left: 0px;
-  }
-
-  .exp-box-2 {
+  main {
     flex-direction: column;
   }
 
-  .exp-box-3 {
-    flex-direction: column;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-  }
-
-  h3 {
-    font-size: 12px;
-  }
-
-  h4 {
-    font-size: 12px;
-  }
-  
-  p {
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 12px;
-    text-align: center;
-  }
-
-  .skill-box {
+  .skills {
     flex-direction: column;
   }
-  
-  .skill-block {
+
+  .skill-section {
     margin: 0px;
   }
-  
 
-  .footer-links {
+  h1 {
+    font-size: 20px;
+  }
+
+  .footer section {
     flex-direction: column;
   }
 
