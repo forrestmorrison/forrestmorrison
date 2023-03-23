@@ -130,7 +130,7 @@ main {
 
 .edu-description {
   margin: 10px;
-  max-width: 298px;
+  max-width: 297px;
 }
 
 .work-block-1 {
@@ -143,7 +143,7 @@ main {
 
 .work-block-2 {
   margin: 10px;
-  margin-left: 68px;
+  margin-left: 76px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -151,7 +151,7 @@ main {
 
 .work-block-3 {
   margin: 10px;
-  margin-left: 68px;
+  margin-left: 65px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
