@@ -216,6 +216,7 @@ footer section {
   }
 
   .skills {
+    margin-top: 20px;
     flex-direction: column;
   }
 
@@ -223,8 +224,36 @@ footer section {
     margin: 0px;
   }
 
-  h1 {
-    font-size: 20px;
+  .edu {
+    margin-top: 80px;
+  }
+
+  .edu-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .edu-block {
+    align-items: center;
+  }
+
+  .edu-description {
+    text-align: center;
+  }
+
+  .work-block-1 {
+    margin-left: 0px;
+    align-items: center;
+  }
+  
+  .work-block-2 {
+    margin-left: 0px;
+    align-items: center;
+  }
+
+  .work-block-3 {
+    margin-left: 0px;
+    align-items: center;
   }
 
   .footer section {
