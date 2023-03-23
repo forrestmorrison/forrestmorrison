@@ -1,62 +1,95 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font: inherit; */
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
 body {
-  font-family: "Nunito", sans-serif;
-  max-width: 960px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    font-family: "Nunito", sans-serif;
+    background: white;
+    color: black;
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header {
-  display: flex;
-  flex-direction: column;
-  align-items: space-between;
-  padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
 }
 
 .banner {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+    margin: 10px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
 }
-
+  
 .forrest-logo {
-  width: 10%;
+    max-height: 40px;
+    height: 100%;
 }
 
 .forrest-name {
-  width: 40%;
-  margin-bottom: 2px;
+    max-height: 40px;
+    height: 100%;
 }
 
-
-.personal-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 16pt;
-  margin-top: 50px;
-  margin-bottom: 25px;
+.header-nav {
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16pt;
 }
 
-.personal {
-  text-align: center;
+a:link {
+    color: rgb(17, 159, 5);
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #119f05;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(93, 187, 16);
+    text-decoration: none;
+}
+  
+a:active {
+  color: rgb(93, 187, 16);
+  text-decoration: none;
 }
 
 main {
+  margin: 10px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
-  padding: 25px;
+  align-items: center;
 }
-
-h3 {
-  color: #119f05;
-}
-
+  
 form {
   display: flex;
   flex-direction: column;
@@ -89,67 +122,36 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px;
 }
 
-.footer-links {
-  width: 100%;
+footer section {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
 }
 
-.business-links {
-  margin: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.footer-link {
+  margin: 10px;
 }
 
 .contact-button {
-  margin: 20px;
-  margin-bottom: 27px;
+  margin: 10px;
+  margin-bottom: 15px;
   font-size: 24px;
 }
 
-.business {
-  margin: 12px;
-}
-
 #link-img {
-   width: 20px;
-   height: auto;
-}
-
-.small-text {
-  margin: 20px;
-  color: rgb(17, 159, 5);
-  font-size: 12px;
-  text-align: center;
-}
-
-a:link {
-  color: rgb(17, 159, 5);
-  font: Nunito;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #119f05;
-  font: Nunito;
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgb(93, 187, 16);
-  text-decoration: none;
-}
-
-a:active {
-  color: rgb(93, 187, 16);
-  font: Nunito;
-  text-decoration: none;
+  width: 20px;
+  height: auto;
 }
 
 
@@ -157,20 +159,42 @@ a:active {
 @media all and (max-width: 768px){
 
   .forrest-logo {
-    width: 15%;
+    max-height: 20px;
   }
 
   .forrest-name {
-    width: 60%;
-    margin-bottom: 2px;
+    max-height: 20px;
   }
 
-  .personal-links {
+  .header-nav {
     font-size: 16px;
     margin-bottom: 0px;
   }
 
-  .footer-links {
+  main {
+    flex-direction: column;
+  }
+
+  #profile-pic {
+    margin-bottom: 50px;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+  }
+
+  .home-item {
+    margin-bottom: 20px;
+  }
+
+  .home-icon {
+    height: 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .footer section {
     flex-direction: column;
   }
 
