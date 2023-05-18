@@ -86,9 +86,14 @@ main {
   margin: 10px;
   margin-top: 40px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.portfolio-line {
+  display: flex;
+  flex-direction: row;
 }
   
 .portfolio-item {
@@ -195,7 +200,12 @@ footer section {
     flex-direction: column;
   }
 
+  .portfolio-line {
+    flex-direction: column;
+  }
+
   .portfolio-item {
+    margin-bottom: 100px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
