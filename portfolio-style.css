@@ -91,27 +91,26 @@ main {
   align-items: center;
 }
 
-.portfolio-line {
+article {
   display: flex;
-  flex-direction: row;
 }
   
 .portfolio-item {
     margin: 5px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
 .portfolio-pic {
   margin: 10px;
-  height: 100px;
+  width: 400px;
 }
 
 .portfolio-info {
   margin-left: 20px;
-  height: 250px;
+  height: 150px;
 }
 
 .portfolio-line {
@@ -128,7 +127,7 @@ main {
 .portfolio-links {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .github-link {
