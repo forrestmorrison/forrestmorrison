@@ -2,9 +2,9 @@
 
 :root {
     --primary-color: #119f05;
-    --secondary-color: #1c3fa8;
-    --dark-color: #002240;
-    --light-color: #dadada;
+    --secondary-color: rgb(93, 187, 16);
+    --dark-color: black;
+    --light-color: white;
     --success-color: #5cb85c;
     --error-color: #d9534f;
 }
