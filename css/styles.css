@@ -55,7 +55,7 @@ pre {
 .navbar {
     background-color: var(--light-color);
     color: var(--primary-color);
-    height: 70px;
+    height: 80px;
 }
 
 .navbar ul {
@@ -71,7 +71,6 @@ pre {
 
 .navbar a:hover {
     color: var(--secondary-color);
-    border-bottom: 2px var(--secondary-color) solid;
 }
 
 .navbar .flex {
