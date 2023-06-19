@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 :root {
     --primary-color: #119f05;
@@ -17,7 +17,7 @@
 
 body {
     font-family: "Nunito", sans-serif;
-    color: #333;
+    color: #000000;
     line-height: 1.6;
 }
 
@@ -27,12 +27,12 @@ ul {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: #000000;
 }
 
 h1,
 h2 {
-    font-weight: 300;
+    font-weight: bold;
     line-height: 1.2;
     margin: 10px 0;
 }
@@ -53,8 +53,8 @@ pre {
 }
 
 .navbar {
-    background-color: var(--primary-color);
-    color: #fff;
+    background-color: var(--light-color);
+    color: var(--primary-color);
     height: 70px;
 }
 
@@ -63,13 +63,15 @@ pre {
 }
 
 .navbar a {
-    color: #fff;
+    color: var(--primary-color);
+    font-weight: bold;
     padding: 10px;
     margin: 0 5px;
 }
 
 .navbar a:hover {
-    border-bottom: 2px #fff solid;
+    color: var(--secondary-color);
+    border-bottom: 2px var(--secondary-color) solid;
 }
 
 .navbar .flex {
@@ -80,8 +82,8 @@ pre {
 
 .showcase {
     height: 400px;
-    background-color: var(--primary-color);
-    color: #fff;
+    background-color: #fff;
+    color: var(--primary-color);
     position: relative;
 }
 
