@@ -77,6 +77,10 @@ pre {
     justify-content: space-between;
 }
 
+.logo-img {
+    width: 100px;
+}
+
 /* Showcase */
 
 .showcase {
