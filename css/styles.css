@@ -150,3 +150,12 @@ pre {
     -moz-transform: skewY(-3deg);
     -ms-transform: skewY(-3deg);
 }
+
+.icon {
+    width: 30px;
+    margin: 10px;
+}
+
+.showcase-line {
+    display: flex;
+}
