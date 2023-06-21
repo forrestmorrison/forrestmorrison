@@ -112,11 +112,7 @@ pre {
 
 .showcase-form {
     position: relative;
-    top: 60px;
-    height: 350px;
-    width: 400px;
     padding: 40px;
-    z-index: 100;
     justify-self: flex-end;
     animation: slideInFromRight .75s ease-in;
 }
@@ -160,4 +156,25 @@ pre {
 
 .showcase-line {
     display: flex;
+}
+
+/* Skills */
+
+.skills {
+    padding-top: 100px;
+    animation: slideInFromBottom .75s ease-in;
+}
+
+.skills-heading {
+    max-width: 500px;
+    margin: auto;
+}
+
+.skills .grid h3 {
+    font-size: 35px;
+}
+
+.skills .grid p {
+    font-size: 20px;
+    font-weight: bold;
 }
