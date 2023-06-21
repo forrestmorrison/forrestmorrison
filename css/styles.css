@@ -78,7 +78,9 @@ pre {
 }
 
 .logo-img {
-    width: 100px;
+    margin: 0 15px;
+    height: 30px;
+    width: auto;
 }
 
 /* Showcase */
