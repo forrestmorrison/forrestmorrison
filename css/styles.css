@@ -170,6 +170,12 @@ pre {
     margin: auto;
 }
 
+.skills-icon {
+    margin: 10px;
+    height: 15px;
+    width: auto;
+}
+
 .skills .grid h3 {
     font-size: 35px;
 }
@@ -177,4 +183,9 @@ pre {
 .skills .grid p {
     font-size: 20px;
     font-weight: bold;
+}
+
+.skills section {
+    display: flex;
+    align-items: center;
 }
