@@ -92,8 +92,7 @@ pre {
 
 .showcase {
     height: 400px;
-    background-color: #fff;
-    color: var(--primary-color);
+    background-color: white;
     position: relative;
 }
 
@@ -107,7 +106,7 @@ pre {
 
 .showcase .grid {
     overflow: visible;
-    grid-template-columns: 55% auto;
+    grid-template-columns: 60% auto;
     gap: 30px;
 }
 
@@ -128,7 +127,8 @@ pre {
 }
 
 .showcase-form input[type="text"],
-.showcase-form input[type="email"] {
+.showcase-form input[type="email"],
+.showcase-form textarea {
     border: 0;
     border-bottom: 1px solid #b4becb;
     width: 100%;
@@ -142,6 +142,7 @@ pre {
 
 .icon {
     width: 30px;
+    height: 30px;
     margin: 10px;
 }
 
@@ -189,21 +190,5 @@ pre {
 @media(max-width: 960px) {
     .logo-img {
         height: 20px;
-    }
-}
-
-/* Mobile */
-@media(max-width: 500px) {
-    .navbar {
-        height: 110px;
-    }
-
-    .navbar .flex {
-        flex-direction: column;
-    }
-
-    .navbar ul {
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.1);
     }
 }
