@@ -184,3 +184,26 @@ pre {
 .footer h1 {
     color: white;
 }
+
+/* Tablets and under */
+@media(max-width: 960px) {
+    .logo-img {
+        height: 20px;
+    }
+}
+
+/* Mobile */
+@media(max-width: 500px) {
+    .navbar {
+        height: 110px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+}
