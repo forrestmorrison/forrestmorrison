@@ -35,6 +35,7 @@ h2 {
     font-weight: bold;
     line-height: 1.2;
     margin: 10px 0;
+    color: var(--primary-color);
 }
 
 h3 {
@@ -118,6 +119,7 @@ pre {
     position: relative;
     padding: 40px;
     justify-self: flex-end;
+    color: var(--primary-color);
     animation: slideInFromRight .75s ease-in;
 }
 
@@ -136,21 +138,6 @@ pre {
 
 .showcase-form input:focus {
     outline: none;
-}
-
-.showcase::before,
-.showcase::after {
-    content: "";
-    position: absolute;
-    height: 100px;
-    bottom: -70px;
-    right: 0;
-    left: 0;
-    background: #fff;
-    transform: skewY(-3deg); 
-    -webkit-transform: skewY(-3deg);
-    -moz-transform: skewY(-3deg);
-    -ms-transform: skewY(-3deg);
 }
 
 .icon {
@@ -174,6 +161,11 @@ pre {
     transition: transform 0.2s ease-in;
 }
 
+.skills img {
+    height: 105px;
+    width: auto;
+}
+
 .skills .card h4 {
     font-size: 20px;
     margin-bottom: 10px;
@@ -181,4 +173,14 @@ pre {
 
 .skills .card:hover {
     transform: translateY(-15px);
+}
+
+/* Footer */
+
+.footer .social a {
+    margin: 0 10px;
+}
+
+.footer h1 {
+    color: white;
 }
