@@ -8,6 +8,30 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="shortcut icon" type="image/png" href="images/4rest-favicon.png"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('80V36n03YZ0T2wyCc');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('gmail', 'template_3awxwzc', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                        window.location.replace("contact-thanks.html")
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
     <title>Forrest Morrison</title>
 </head>
 <body>
@@ -152,16 +176,14 @@
         <div class="container flex">
             <div class="showcase-form card">
                 <h2>Contact Me</h2>
-                <form>
-                    <div class="form-control">
-                        <input type="text" name="name" placeholder="Name" required>
-                    </div>
-                    <div class="form-control">
-                        <input type="text" name="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-control">
-                        <textarea name="message" id="message" placeholder="Message" cols="30" rows="4"></textarea>
-                    </div>
+                <form id="contact-form">
+                    <input type="hidden" name="contact_number">
+                    <label>Name</label>
+                    <input type="text" name="user_name">
+                    <label>Email</label>
+                    <input type="email" name="user_email">
+                    <label>Message</label>
+                    <textarea name="message"></textarea>
                     <input type="submit" value="Send" class="btn btn-primary">
                 </form>
             </div>
