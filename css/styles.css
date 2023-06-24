@@ -178,6 +178,20 @@ pre {
 
 /* Portfolio */
 
+.portfolio .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.portfolio-img {
+    height: auto;
+    width: 300px;
+}
+
+.card-info {
+    margin: 0 30px;
+}
+
 /* Resume */
 
 /* Footer */
