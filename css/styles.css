@@ -163,12 +163,12 @@ pre {
 }
 
 .skills img {
-    height: 105px;
+    height: 75px;
     width: auto;
 }
 
 .skills .card h4 {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
@@ -176,14 +176,23 @@ pre {
     transform: translateY(-15px);
 }
 
+/* Portfolio */
+
+/* Resume */
+
 /* Footer */
 
 .footer .social a {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
-.footer h1 {
-    color: white;
+.footer-img {
+    height: 20px;
+    width: auto;
+}
+
+.footer nav {
+    margin-bottom: 20px;
 }
 
 /* Tablets and under */
