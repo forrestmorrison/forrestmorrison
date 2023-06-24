@@ -194,6 +194,18 @@ pre {
 
 /* Resume */
 
+.resume .grid {
+    grid-template-columns: 1fr 1fr;
+    
+    overflow: hidden;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Footer */
 
 .footer .flex {
@@ -289,7 +301,12 @@ pre {
     }
 
     .footer li {
-        margin: 5px;
+        margin: 8px;
+    }
+
+    .resume .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
 }
