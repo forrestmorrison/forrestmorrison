@@ -261,7 +261,8 @@ pre {
     }
 
     .logo-img {
-        height: 19px;
+        margin: 10px 10px;
+        height: 20px;
     }
 
     .showcase h2 {
