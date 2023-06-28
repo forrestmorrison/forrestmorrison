@@ -265,6 +265,10 @@ pre {
         height: 20px;
     }
 
+    .showcase-line {
+        align-self: center;
+    }
+
     .showcase h2 {
         font-size: 13px;
     }
