@@ -88,6 +88,12 @@ pre {
     width: auto;
 }
 
+.name-logo {
+    margin: 0 15px;
+    height: 30px;
+    width: auto;
+}
+
 /* Showcase */
 
 .showcase {
@@ -263,6 +269,10 @@ pre {
     .logo-img {
         margin: 10px 10px;
         height: 20px;
+    }
+    
+    .name-logo {
+        display: none;
     }
 
     .showcase-line {
