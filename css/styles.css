@@ -205,8 +205,8 @@ pre {
 
 /* Resume */
 
-.resume .grid {
-    grid-template-columns: 1fr 1fr;
+.resume .flex {
+    flex-direction: column;
     
     overflow: hidden;
 }
