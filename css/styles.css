@@ -291,6 +291,10 @@ pre {
         flex-direction: column;
     }
 
+    .about-me .flex {
+        text-align: center;
+    }
+
     .about-me img {
         height: 180px;
     }
