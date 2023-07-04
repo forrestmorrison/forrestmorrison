@@ -194,10 +194,18 @@ pre {
 
 /* Portfolio */
 
+.portfolio .container {
+    padding: 20px;
+}
+
 .portfolio .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     place-items: center;
+}
+
+.portfolio .card {
+    width: 80%;
 }
 
 .portfolio-img {
@@ -285,6 +293,10 @@ pre {
 
     .portfolio .flex {
         flex-direction: column;
+    }
+
+    .portfolio-img {
+        width: 200px;
     }
 
     .about-me {
