@@ -204,6 +204,10 @@ pre {
     place-items: center;
 }
 
+.portfolio .flex {
+    flex-direction: column;
+}
+
 .portfolio .card {
     width: 80%;
 }
@@ -215,6 +219,7 @@ pre {
 
 .card-info {
     margin: 0 30px;
+    margin-top: 20px;
 }
 
 /* Resume */
