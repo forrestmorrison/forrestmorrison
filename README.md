@@ -1,6 +1,6 @@
-## forrestmorrison.com 👋
+## [**forrestmorrison.com**](https://www.forrestmorrison.com) 👋
 
-[**forrestmorrison.com**](https://www.forrestmorrison.com) is the official developer portfolio website of Forrest Morrison, a full-stack software engineer located in Austin, TX.
+ **forrestmorrison.com** is the official developer portfolio website of Forrest Morrison, a full-stack software engineer located in Austin, TX.
 
 This site was made using the following technologies:
 
