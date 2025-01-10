@@ -1,16 +1,21 @@
-### forrestmorrison.com 👋
+## forrestmorrison.com 👋
 
-<!--
-**forrestmorrison/forrestmorrison** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+** forrestmorrison.com** is the official developer portfolio website of Forrest Morrison, a full-stack software engineer located in Austin, TX.
 
-Here are some ideas to get you started:
+This site was made using the following technologies:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- HTML
+- CSS
+- Javascript
+
+The site is divided into five sections:
+
+- Home
+- About
+- Skills
+- Work
+- Contact
+
+The purpose of this site is to showcase my skills, experience and interests as a web developer. As I continue to improve as a coder and learn new skills, the site will continue to grow and have more features.
+
+### *Please feel free to explore, and even send me a message if you want!*
